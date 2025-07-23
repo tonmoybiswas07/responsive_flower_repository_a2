@@ -18,6 +18,7 @@
   --dark-color: #000000;
   --primary-color: #e95a08;
   --secondary-color: #ffffff;
+  --paragraph-color: #8987a1;
 }
 
 /* header style starts here */
@@ -52,4 +53,14 @@
 }
 .plant-card {
   margin: 0 auto;
+}
+/* plant section end here */
+
+/* plants section style here */
+.plants-lover {
+  margin: 0 auto;
+  margin-bottom: 140px;
+}
+.plants-lover-content-description {
+  color: var(--paragraph-color);
 }
