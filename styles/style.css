@@ -16,9 +16,24 @@
 /* shared style */
 :root {
   --dark-color: #000000;
+  --primary-color: #e95a08;
 }
 
 /* header style starts here */
 .home-menu {
   color: var(--dark-color);
+}
+.header {
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+/* header style end  */
+
+/* banner style start here */
+.primary-color {
+  color: var(--primary-color);
+}
+.banner {
+  margin: 0 auto;
 }
