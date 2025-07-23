@@ -56,11 +56,32 @@
 }
 /* plant section end here */
 
-/* plants section style here */
+/* plants lover section style here */
 .plants-lover {
   margin: 0 auto;
   margin-bottom: 140px;
 }
 .plants-lover-content-description {
   color: var(--paragraph-color);
+}
+/* plants lover section style end here */
+
+/* latest deal section style starts here */
+
+/* latest deal section style end here */
+
+/* join section style start here */
+.join-section {
+  margin: 0 auto;
+}
+.join-section-title {
+  color: var(--secondary-color);
+}
+.join-input-section input[type="email"] {
+  background-color: var(--secondary-color);
+}
+.join-input-section input[type="submit"] {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 13.5px 50px;
 }
