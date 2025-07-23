@@ -17,6 +17,7 @@
 :root {
   --dark-color: #000000;
   --primary-color: #e95a08;
+  --secondary-color: #ffffff;
 }
 
 /* header style starts here */
@@ -35,5 +36,20 @@
   color: var(--primary-color);
 }
 .banner {
+  margin: 0 auto;
+}
+/* banner style end here */
+
+/* plant section style here */
+.plant-card-container {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.card-button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 19px 80px;
+}
+.plant-card {
   margin: 0 auto;
 }
