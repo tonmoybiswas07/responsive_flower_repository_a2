@@ -65,6 +65,7 @@
 .plants-lover-content-description {
   color: var(--paragraph-color);
 }
+
 /* plants lover section style end here */
 
 /* latest deal section style starts here */
@@ -129,5 +130,7 @@
 .middle-footer-section-2 li a {
   color: var(--paragraph-color);
 }
-.social-media-icon img {
-}
+/* footer section style end here */
+
+/* responsive design */
+/* small device */

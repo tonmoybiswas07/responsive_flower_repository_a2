@@ -25,18 +25,22 @@
       <!-- navbar -->
       <div class="navbar font-medium">
         <nav>
-          <ul class="flex justify-between items-center gap-12">
-            <li>
-              <a href="#"><span class="home-menu font-bold">Home</span></a>
-            </li>
-            <li><a class="text-[#8987A1]" href="#">Shop</a></li>
-            <li><a class="text-[#8987A1]" href="#">About us </a></li>
-            <li>
-              <a href="#"
-                ><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a
-              >
-            </li>
-          </ul>
+          <div class="link flex gap-12">
+            <ul class="flex justify-between items-center gap-12">
+              <li>
+                <a href="#"><span class="home-menu font-bold">Home</span></a>
+              </li>
+              <li><a class="text-[#8987A1]" href="#">Shop</a></li>
+              <li><a class="text-[#8987A1]" href="#">About us </a></li>
+            </ul>
+            <div class="cart list-none">
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a
+                >
+              </li>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
@@ -100,7 +104,7 @@
               </div>
             </div>
             <div class="card-button font-semibold text-center mt-7">
-              <button>ADD TO CART</button>
+              <button onclick="flower()">ADD TO CART</button>
             </div>
           </div>
           <div class="plant-card w-[270px] h-[484px]">
@@ -119,7 +123,7 @@
               </div>
             </div>
             <div class="card-button font-semibold text-center mt-7">
-              <button>ADD TO CART</button>
+              <button onclick="flower()">ADD TO CART</button>
             </div>
           </div>
           <div class="plant-card w-[270px] h-[484px]">
@@ -138,7 +142,7 @@
               </div>
             </div>
             <div class="card-button font-semibold text-center mt-7">
-              <button>ADD TO CART</button>
+              <button onclick="flower()">ADD TO CART</button>
             </div>
           </div>
           <div class="plant-card w-[270px] h-[484px]">
@@ -157,7 +161,7 @@
               </div>
             </div>
             <div class="card-button font-semibold text-center mt-7">
-              <button>ADD TO CART</button>
+              <button onclick="flower()">ADD TO CART</button>
             </div>
           </div>
           <div class="plant-card w-[270px] h-[484px]">
@@ -176,7 +180,7 @@
               </div>
             </div>
             <div class="card-button font-semibold text-center mt-7">
-              <button>ADD TO CART</button>
+              <button onclick="flower()">ADD TO CART</button>
             </div>
           </div>
           <div class="plant-card w-[270px] h-[484px]">
@@ -195,7 +199,7 @@
               </div>
             </div>
             <div class="card-button font-semibold text-center mt-7">
-              <button>ADD TO CART</button>
+              <button onclick="flower()">ADD TO CART</button>
             </div>
           </div>
           <div class="plant-card w-[270px] h-[484px]">
@@ -214,7 +218,7 @@
               </div>
             </div>
             <div class="card-button font-semibold text-center mt-7">
-              <button>ADD TO CART</button>
+              <button onclick="flower()">ADD TO CART</button>
             </div>
           </div>
           <div class="plant-card w-[270px] h-[484px]">
@@ -233,7 +237,7 @@
               </div>
             </div>
             <div class="card-button font-semibold text-center mt-7">
-              <button>ADD TO CART</button>
+              <button onclick="flower()">ADD TO CART</button>
             </div>
           </div>
         </div>
@@ -403,5 +407,12 @@
       </div>
     </footer>
     <!-- footer section end here -->
+
+    <!-- script code are here -->
+    <script>
+      function flower() {
+        alert("Flower Added to Cart");
+      }
+    </script>
   </body>
 </html>
