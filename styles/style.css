@@ -76,12 +76,15 @@
   color: var(--paragraph-color);
 }
 .bloom-plant {
+  background: url(../images/deal-bloom.png);
   grid-area: bloom-plant;
 }
 .ana-plant {
+  background: url(../images/deal-ana.png);
   grid-area: ana-plant;
 }
 .zabo-plant {
+  background: url(../images/deal-zabo.png);
   grid-area: zabo-plant;
 }
 .bloom-plant,
