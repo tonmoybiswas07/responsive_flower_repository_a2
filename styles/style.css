@@ -67,6 +67,12 @@
 /* plants lover section style end here */
 
 /* latest deal section style starts here */
+.latest-deal-title {
+  color: var(--dark-color);
+}
+.latest-deal-description {
+  color: var(--paragraph-color);
+}
 
 /* latest deal section style end here */
 
@@ -84,4 +90,21 @@
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding: 13.5px 50px;
+}
+/* join section style end here */
+
+/* footer section style start here */
+.footer {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.footer-description {
+  color: var(--paragraph-color);
+  margin-top: 16px;
+}
+.middle-footer-1 li a,
+.middle-footer-section-2 li a {
+  color: var(--paragraph-color);
+}
+.social-media-icon img {
 }
