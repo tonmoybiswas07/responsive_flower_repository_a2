@@ -172,10 +172,10 @@
     margin-left: 200px;
   }
   .plant-heading h2 {
-    margin-left: 550px;
+    margin-left: 650px;
   }
   .plant-description {
-    margin-left: 550px;
+    margin-left: 750px;
   }
   .plant {
     display: flex;
@@ -186,16 +186,18 @@
   }
 
   .plant-card-container {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     width: auto;
     align-items: center;
     justify-content: center;
+    margin-left: 70px;
+    gap: 50px;
   }
+
   .plants-lover {
     flex-direction: column;
     height: auto;
-    margin-left: 30px;
+    margin-left: 50px;
   }
   .plant-lover-content h2 {
     text-wrap: nowrap;
@@ -208,14 +210,15 @@
     margin-bottom: 50px;
   }
   .latest-deal-title {
-    margin-left: 550px;
+    margin-left: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-wrap: nowrap;
   }
+
   .latest-deal-description {
-    margin-left: 200px;
+    margin-left: 250px;
   }
   .deal-container {
     justify-content: center;
