@@ -105,6 +105,7 @@
 
 /* join section style start here */
 .join-section {
+  background: url(../images/news-letter-bg.png);
   margin: 0 auto;
 }
 .join-section-title {
