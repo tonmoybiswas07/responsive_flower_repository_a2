@@ -60,6 +60,7 @@
 .plants-lover {
   margin: 0 auto;
   margin-bottom: 140px;
+  margin-top: 200px;
 }
 .plants-lover-content-description {
   color: var(--paragraph-color);
@@ -72,6 +73,28 @@
 }
 .latest-deal-description {
   color: var(--paragraph-color);
+}
+.bloom-plant {
+  grid-area: bloom-plant;
+}
+.ana-plant {
+  grid-area: ana-plant;
+}
+.zabo-plant {
+  grid-area: zabo-plant;
+}
+.bloom-plant,
+.ana-plant,
+.zabo-plant {
+  color: var(--secondary-color);
+}
+.deal-container {
+  margin: 0 auto;
+  margin-bottom: 120px;
+  display: grid;
+  grid-template-areas:
+    "bloom-plant zabo-plant zabo-plant"
+    "ana-plant zabo-plant zabo-plant";
 }
 
 /* latest deal section style end here */
