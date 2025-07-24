@@ -76,15 +76,12 @@
   color: var(--paragraph-color);
 }
 .bloom-plant {
-  background: url(../images/deal-bloom.png);
   grid-area: bloom-plant;
 }
 .ana-plant {
-  background: url(../images/deal-ana.png);
   grid-area: ana-plant;
 }
 .zabo-plant {
-  background: url(../images/deal-zabo.png);
   grid-area: zabo-plant;
 }
 .bloom-plant,
@@ -105,8 +102,6 @@
 
 /* join section style start here */
 .join-section {
-  background: url(../images/news-letter-bg.png);
-  background-repeat: no-repeat;
   margin: 0 auto;
 }
 .join-section-title {
@@ -140,111 +135,3 @@
 
 /* responsive design */
 /* small device */
-@media screen and (max-width: 576px) {
-  .header {
-    margin-top: 50px;
-    width: auto;
-  }
-  .link ul li {
-    display: none;
-  }
-  /* banner */
-  .banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: auto;
-    width: 100%;
-    margin: 0 auto;
-  }
-  .banner-content {
-    order: 2;
-    margin-left: 20px;
-  }
-  .banner-image {
-    order: 1;
-    width: 100%;
-  }
-  .banner-content h1 {
-    font-size: 2rem;
-  }
-  .banner-description p {
-    font-size: 1rem;
-    width: 90%;
-  }
-  /* plants section */
-  .plant-title {
-    font-size: 2rem;
-  }
-  .plant-description {
-    font-size: 1rem;
-    width: 90%;
-  }
-  .plants-lover-content-title {
-    font-size: 2rem;
-  }
-  .plants-lover-content-description {
-    font-size: 1rem;
-    width: 90%;
-  }
-  .plant-card-container {
-    grid-template-columns: 1fr 1fr;
-    width: auto;
-    gap: 20px;
-  }
-  /* plant lover section */
-  .plants-lover {
-    width: auto;
-    flex-direction: column;
-    height: auto;
-    margin: 0px 20px;
-  }
-  .animation-image {
-    display: none;
-  }
-
-  /* latest deal */
-  .latest-deal-title h2 {
-    font-size: 2rem;
-  }
-  .latest-deal-description p {
-    font-size: 1rem;
-    width: 75%;
-  }
-
-  .deal-container {
-    display: grid;
-
-    grid-template-areas:
-      "bloom-plant"
-      "ana-plant"
-      "zabo-plant";
-    width: auto;
-    height: auto;
-  }
-  .bloom-plant,
-  .ana-plant,
-  .zabo-plant {
-    height: 300px;
-    margin: 0px 20px;
-    font-size: 2rem;
-    font-weight: 400;
-  }
-  /* join section{ */
-  .join-section-title {
-    font-size: 2rem;
-  }
-  .join-input-section {
-    width: 400px;
-  }
-  .join-input-section input[type="submit"] {
-    padding: auto 10px;
-  }
-
-  /* footer */
-  .footer {
-    flex-direction: column;
-    padding-left: 20px;
-  }
-}
