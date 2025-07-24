@@ -145,6 +145,9 @@
   .link ul li {
     display: none;
   }
+  .cart li a {
+    font-size: 2.5rem;
+  }
   .banner {
     flex-direction: column;
     height: auto;
@@ -168,6 +171,12 @@
   .banner-content {
     margin-left: 200px;
   }
+  .plant-heading h2 {
+    margin-left: 550px;
+  }
+  .plant-description {
+    margin-left: 550px;
+  }
   .plant {
     display: flex;
     flex-direction: column;
@@ -186,6 +195,7 @@
   .plants-lover {
     flex-direction: column;
     height: auto;
+    margin-left: 30px;
   }
   .plant-lover-content h2 {
     text-wrap: nowrap;
@@ -197,6 +207,16 @@
     width: auto;
     margin-bottom: 50px;
   }
+  .latest-deal-title {
+    margin-left: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+  }
+  .latest-deal-description {
+    margin-left: 200px;
+  }
   .deal-container {
     justify-content: center;
     align-items: center;
@@ -205,17 +225,22 @@
       "ana-plant"
       "zabo-plant";
     height: auto;
-    margin: 0;
+    margin-left: 50px;
   }
 
   .ana-plant,
   .bloom-plant {
     height: 423px;
-    width: 800px;
+    width: 900px;
+    font-size: 2.5rem;
+  }
+  .ana-plant li a,
+  .bloom-plant li a {
+    font-size: 1.7rem;
   }
 
   .join-section {
-    width: 1140px;
+    width: 1240px;
   }
   .join-section-title h1 {
     font-size: 2rem;
@@ -228,6 +253,6 @@
   }
   .footer {
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 100px;
   }
 }
