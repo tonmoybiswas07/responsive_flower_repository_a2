@@ -78,6 +78,24 @@
   color: var(--paragraph-color);
 }
 .bloom-plant {
+  background: url(../images/deal-bloom.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ana-plant {
+  background: url(../images/deal-ana.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.zabo-plant {
+  background: url(../images/deal-zabo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bloom-plant {
   grid-area: bloom-plant;
 }
 .ana-plant {
@@ -103,6 +121,12 @@
 /* latest deal section style end here */
 
 /* join section style start here */
+.join-section {
+  background: url(../images/news-letter-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .join-section {
   margin: 0 auto;
 }
